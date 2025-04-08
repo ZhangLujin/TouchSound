@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MusicVibrationApp" parent="android:Theme.Material.Light.NoActionBar" />
+    
+    <!-- add the theme with ActionBar to MainActivity -->
+    <style name="Theme.MusicVibrationApp.WithActionBar" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="actionBarStyle">@style/Widget.App.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.App.ActionBar</item>
+    </style>
+
+    <style name="Widget.App.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/white</item>
+        <item name="titleTextStyle">@style/TextAppearance.App.ActionBar.Title</item>
+    </style>
+
+    <style name="TextAppearance.App.ActionBar.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
