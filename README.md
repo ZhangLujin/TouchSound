@@ -16,11 +16,12 @@ The APK can be found in the [apk directory](./apk/).
 
 ## Preparation Before Running the Program
 
-Please use the latest version of Android Studio to open the `src` directory. 
+1. Extract the `src.zip` file to get the source code directory.
+2. Use the latest version of Android Studio to open the `src` directory. 
 
 This application uses external LLM (Large Language Model) API services that require configuration. Follow these steps to configure your LLM API settings:
 
-1. Open the file [`src/app/src/main/assets/api_keys.properties`](./src/app/src/main/assets/api_keys.properties)
+1. Open the file `src/app/src/main/assets/api_keys.properties`
 2. Replace the placeholder values with your actual LLM API settings:
 
 ```properties
